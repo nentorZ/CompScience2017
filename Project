@@ -21,3 +21,10 @@ lbl2.pack()
 btn.pack()
 
 window.mainloop()
+
+
+
+
+
+
+http://usingpython.com/widget-interactivity/
