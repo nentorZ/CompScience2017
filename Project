@@ -1,1 +1,23 @@
+import tkinter
 
+window=tkinter.Tk()
+window.title("aliEn")
+#window.wm_iconbitmap('H:\hentai (2)\alien.ico')
+window.geometry('1200x720')
+
+#photo = tkinter.PhotoImage(file='')
+#w = tkinter.Label(window, image=photo)
+#w.pack()
+
+def clicked():
+    lbl2.configure(text='Scanning....Please Wait')
+lbl = tkinter.Label(window, text='aliEn')
+\
+lbl2 = tkinter.Label(window, text='Click Below to Scan for Games')
+btn = tkinter.Button(window, text='Scan Games', command=clicked)
+
+lbl.pack()
+lbl2.pack()
+btn.pack()
+
+window.mainloop()
